@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Component/Navbar'
+// import Navbar from './Component/Navbar'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Log_In from './Component/Log_In';
 import Home from './Component/Home';
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar />
+    {/* <Navbar /> */}
     <Routes>
       <Route path='/' element = {<Home />} />
       <Route path='/About' element = {<About />} />
