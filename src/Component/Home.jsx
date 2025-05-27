@@ -965,7 +965,7 @@ const Home = () => {
 
       {/* ////////////////////////////OUR NEWSLETTER//////////////// */}
 
-      <section>
+      <section>~
         <div>
           <div className="d-flex align-items-center justify-content-center flex-wrap mb-2 text-center">
             <img
