@@ -116,74 +116,75 @@ const Home = () => {
         <Slider {...settings}>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
             <div className=" my_container">
-              <p className=" fs_2xl text-white text-center w-75 m-auto">
+              <p className=" fs_2xl text-white text-center w-75 m-auto font_sedan">
                 Introducing Our Newest Glass Creations!
               </p>
-              <p className=" fs_md text-white text-center">
+              <p className=" fs_md text-white text-center font_helvetica">
                 {" "}
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4">NEW IN</p>
+              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
             <div className=" my_container">
-              <p className=" fs_2xl text-white text-center w-75 m-auto">
+              <p className=" fs_2xl text-white text-center w-75 m-auto font_sedan">
                 Introducing Our Newest Glass Creations!
               </p>
-              <p className=" fs_md text-white text-center">
+              <p className=" fs_md text-white text-center font_helvetica">
                 {" "}
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4">NEW IN</p>
+              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
             <div className=" my_container">
-              <p className=" fs_2xl text-white text-center w-75 m-auto">
+              <p className=" fs_2xl text-white text-center w-75 m-auto font_sedan">
                 Introducing Our Newest Glass Creations!
               </p>
-              <p className=" fs_md text-white text-center">
+              <p className=" fs_md text-white text-center font_helvetica">
                 {" "}
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4">NEW IN</p>
+              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
             <div className=" my_container">
-              <p className=" fs_2xl text-white text-center w-75 m-auto">
+              <p className=" fs_2xl text-white text-center w-75 m-auto font_sedan">
                 Introducing Our Newest Glass Creations!
               </p>
-              <p className=" fs_md text-white text-center">
+              <p className=" fs_md text-white text-center font_helvetica">
                 {" "}
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4">NEW IN</p>
+              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
             <div className=" my_container">
-              <p className=" fs_2xl text-white text-center w-75 m-auto">
+              <p className=" fs_2xl text-white text-center w-75 m-auto font_sedan">
                 Introducing Our Newest Glass Creations!
               </p>
-              <p className=" fs_md text-white text-center">
+              <p className=" fs_md text-white text-center font_helvetica">
                 {" "}
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4">NEW IN</p>
+              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
             </div>
           </div>
+        
         </Slider>
       </div>
 
@@ -192,9 +193,9 @@ const Home = () => {
       <section>
         <div className=" my_container">
           <div className=" d-flex justify-content-between align-items-center mt-3">
-            <p className=" fs_1xl clr_grey ">Shop Bestsellers</p>
+            <p className=" fs_1xl clr_grey font_sedan">Shop Bestsellers</p>
             <div className=" d-flex">
-              <p className=" text-decoration-underline me-1">VIEW ALL</p>
+              <p className=" text-decoration-underline me-1 font_helvetica">VIEW ALL</p>
               <p>
                 <span>{">"}</span>
               </p>
@@ -216,7 +217,7 @@ const Home = () => {
                     <p className=" fs_sm clr_grey fw-bolder">
                       Small Round Basin - squared to wall pedestal
                     </p>
-                    <p className=" fs_xsm mb-1">LAS121</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS121</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 3,995.00</p>
                     <div className=" d-flex align-items-center">
                       <img
@@ -227,7 +228,7 @@ const Home = () => {
                       <p className=" fs_sm clr_brown">12.9k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -254,10 +255,10 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       ROUND Basin - on small pedestal wrought iron{" "}
                     </p>
-                    <p className=" fs_xsm mb-1">LAS101</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS101</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 5,495.00</p>
                     <div className=" d-flex align-items-center">
                       <img
@@ -268,7 +269,7 @@ const Home = () => {
                       <p className=" fs_sm clr_brown">6.8k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -295,10 +296,10 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Large Round Basin - on small pedestal
                     </p>
-                    <p className=" fs_xsm mb-1">LAS120</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS120</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 4,495.00</p>
                     <div className=" d-flex align-items-center">
                       <img
@@ -309,7 +310,7 @@ const Home = () => {
                       <p className=" fs_sm clr_brown">4.8k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -336,10 +337,10 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Small Round Basin - squared to wall pedestal
                     </p>
-                    <p className=" fs_xsm mb-1">LAS303</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS303</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 3,995.00</p>
                     <div className=" d-flex align-items-center">
                       <img
@@ -350,7 +351,7 @@ const Home = () => {
                       <p className=" fs_sm clr_brown">8.5k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -396,7 +397,7 @@ const Home = () => {
               src="./src/assets/Images/png/sstar.png"
               alt="star"
             />
-            <p className=" fs_sm clr_brown text-decoration-underline ms-5 me-5">
+            <p className=" fs_sm clr_brown text-decoration-underline ms-5 me-5 font_helvetica">
               SHOP NOW
             </p>
             <img
@@ -406,7 +407,7 @@ const Home = () => {
             />
           </div>
           <div className=" overflow-hidden d-flex justify-content-center">
-            <p className=" fs_1xl clr_grey fw-normal text-center scroll-content">
+            <p className=" fs_1xl clr_grey fw-normal text-center scroll-content font_sedan">
               DARE TO DREAM, WE DO THE BEST
             </p>
           </div>
@@ -416,7 +417,7 @@ const Home = () => {
               src="./src/assets/Images/png/sstar.png"
               alt="star"
             />
-            <p className=" fs_sm clr_brown text-decoration-underline ms-5 me-5">
+            <p className=" fs_sm clr_brown text-decoration-underline ms-5 me-5 font_helvetica">
               SHOP NOW
             </p>
             <img
@@ -434,8 +435,8 @@ const Home = () => {
               alt="basin"
             />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2">BASIN</p>
-              <button className=" product_btn">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">BASIN</p>
+              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
             </div>
           </div>
           <div className=" w_20 position-relative">
@@ -445,8 +446,8 @@ const Home = () => {
               alt="PEDESTAL"
             />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2">PEDESTAL</p>
-              <button className=" product_btn">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">PEDESTAL</p>
+              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
             </div>
           </div>
           <div className=" w_20 position-relative">
@@ -456,8 +457,8 @@ const Home = () => {
               alt="UNDERMOUNT"
             />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2">UNDERMOUNT</p>
-              <button className=" product_btn">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">UNDERMOUNT</p>
+              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
             </div>
           </div>
           <div className=" w_20 position-relative">
@@ -467,8 +468,8 @@ const Home = () => {
               alt="DROP-IN"
             />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2">DROP-IN</p>
-              <button className=" product_btn">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">DROP-IN</p>
+              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
             </div>
           </div>
           <div className=" w_20 position-relative">
@@ -478,8 +479,8 @@ const Home = () => {
               alt="CUSTOM"
             />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2">CUSTOM</p>
-              <button className=" product_btn">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">CUSTOM</p>
+              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
             </div>
           </div>
         </div>
@@ -497,21 +498,21 @@ const Home = () => {
                   src="./src/assets/Images/png/sstar.png"
                   alt="star"
                 />
-                <p className="fs_xsm fw-normal clr_brown mb-0">
+                <p className="fs_xsm fw-normal clr_brown mb-0 font_helvetica">
                   TIMELESS GLASSWORKS
                 </p>
               </div>
-              <p className="fs_xl clr_grey mb-3 lh-1">
+              <p className="fs_xl clr_grey mb-3 lh-1 font_sedan">
                 Artistry in Glass, Elevating Your Spaces
               </p>
-              <p className="fs_xsm clr_brown">
+              <p className="fs_xsm clr_brown font_helvetica">
                 We specialize in creating exquisite glass basins and accessories
                 for bathroom that blend artistry with functionality. Whether
                 you're looking for a sleek modern touch or a unique handcrafted
                 masterpiece, our commitment to precision and excellence ensures
                 that every product reflects sophistication and elegance.
               </p>
-              <button className="about_btn mt-4 mx-auto mx-md-0">
+              <button className="about_btn mt-4 mx-auto mx-md-0 font_helvetica">
                 ABOUT US
               </button>
             </div>
@@ -537,9 +538,9 @@ const Home = () => {
       <section>
         <div className=" my_container mt-5 pt-5">
           <div className=" d-flex justify-content-between align-items-center mt-3 mb-3">
-            <p className=" fs_1xl clr_grey ">New Arrivals</p>
+            <p className=" fs_1xl clr_grey font_sedan">New Arrivals</p>
             <div className=" d-flex">
-              <p className=" text-decoration-underline me-1">VIEW ALL</p>
+              <p className=" text-decoration-underline me-1 font_helvetica">VIEW ALL</p>
               <p>
                 <span>{">"}</span>
               </p>
@@ -558,19 +559,19 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">Round Vessel</p>
-                    <p className=" fs_xsm mb-1">LAS03</p>
-                    <p className=" fs_sm fw-bolder clr_brown">$ 2,095.00</p>
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">Round Vessel</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS03</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 2,095.00</p>
                     <div className=" d-flex align-items-center">
                       <img
                         className=" w-50 me-2"
                         src="./src/assets/Images/png/stars.png"
                         alt="rating"
                       />
-                      <p className=" fs_sm clr_brown">598</p>
+                      <p className=" fs_sm clr_brown font_helvetica">598</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -597,21 +598,21 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Small round basin squared
                     </p>
-                    <p className=" fs_xsm mb-1">LAS121</p>
-                    <p className=" fs_sm fw-bolder clr_brown">$ 4,195.00</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS121</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 4,195.00</p>
                     <div className=" d-flex align-items-center">
                       <img
                         className=" w-50 me-2"
                         src="./src/assets/Images/png/stars.png"
                         alt="rating"
                       />
-                      <p className=" fs_sm clr_brown">125</p>
+                      <p className=" fs_sm clr_brown font_helvetica">125</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -638,21 +639,21 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Round vessel 3 levels
                     </p>
-                    <p className=" fs_xsm mb-1">LAS053</p>
-                    <p className=" fs_sm fw-bolder clr_brown">$ 3,495.00</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS053</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 3,495.00</p>
                     <div className=" d-flex align-items-center">
                       <img
                         className=" w-50 me-2"
                         src="./src/assets/Images/png/stars.png"
                         alt="rating"
                       />
-                      <p className=" fs_sm clr_brown">78</p>
+                      <p className=" fs_sm clr_brown font_helvetica">78</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -679,21 +680,21 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder">
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Modern shallow rectangular bowl
                     </p>
-                    <p className=" fs_xsm mb-1">LAS072</p>
-                    <p className=" fs_sm fw-bolder clr_brown">$ 2,895.00</p>
+                    <p className=" fs_xsm mb-1 font_helvetica">LAS072</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 2,895.00</p>
                     <div className=" d-flex align-items-center">
                       <img
                         className=" w-50 me-2"
                         src="./src/assets/Images/png/stars.png"
                         alt="rating"
                       />
-                      <p className=" fs_sm clr_brown">105</p>
+                      <p className=" fs_sm clr_brown font_helvetica">105</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
-                      <button className=" cart fs_sm clr_grey">
+                      <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
                       <img
@@ -760,22 +761,22 @@ const Home = () => {
                   src="./src/assets/Images/png/sstar.png"
                   alt="star"
                 />
-                <p className="fs_xsm clr_brown ms-2 me-2">OUR CATALOGUES</p>
+                <p className="fs_xsm clr_brown ms-2 me-2 font_helvetica">OUR CATALOGUES</p>
                 <img
                   className="img_c"
                   src="./src/assets/Images/png/sstar.png"
                   alt="star"
                 />
               </div>
-              <p className="fs_lg clr_brown mb-3 text-center">
+              <p className="fs_lg clr_brown mb-3 text-center font_sedan">
                 The Regal Work Of Glass Masterpieces
               </p>
-              <p className="fs_xsm clr_brown text-center mb-3">
+              <p className="fs_xsm clr_brown text-center mb-3 font_helvetica">
                 Indulge in the finest selection of luxurious glass basins and
                 accessories and more. Crafted for elegance, designed for
                 royalty.
               </p>
-              <button className="explore_btn d-flex m-auto">EXPLORE</button>
+              <button className="explore_btn d-flex m-auto font_helvetica">EXPLORE</button>
             </div>
 
             {/* <-- Right Image Column --> */}
@@ -806,8 +807,8 @@ const Home = () => {
           <div className="my_container">
             <div className="row align-items-center justify-content-between text-center text-md-start">
               <div className="col-md-6 col-sm-6 mb-4 mb-md-0">
-                <p className="fs_xl text-white">Featured Product</p>
-                <p className="fs_xsm text-white mb-5">
+                <p className="fs_xl text-white font_sedan">Featured Product</p>
+                <p className="fs_xsm text-white mb-5 font_helvetica">
                   "Elegant Basin & Countertop Glassworks – Crafted for Style &
                   Durability"
                 </p>
@@ -819,12 +820,12 @@ const Home = () => {
               </div>
               <div className="col-md-6 col-sm-6 col-12">
                 <p className="fs_lg text-white text-center">
-                  PURE <span className="fs_md">TRANSITION</span>
+                  PURE <span className="fs_md font_sedan">TRANSITION</span>
                 </p>
-                <p className="fs_sm text-white text-center">
+                <p className="fs_sm text-white text-center font_helvetica">
                   VERRE <span className="fs_xsm">Gallery</span>
                 </p>
-                <button className="explore1_btn mt-4 d-flex mx-auto">
+                <button className="explore1_btn mt-4 d-flex mx-auto font_helvetica">
                   EXPLORE ALL
                 </button>
               </div>
@@ -837,14 +838,14 @@ const Home = () => {
 
       <section>
         <div className=" my_container mt-5">
-          <p className=" fs_1xl clr_grey text-center">
+          <p className=" fs_1xl clr_grey text-center font_sedan">
             HEAR FROM OUR SATISFIED CUSTOMERS
           </p>
           <div className=" row justify-content-between">
             <div className=" col-md-4 col-sm-6 col-10 position-relative mt-4 m-auto ">
               <div className=" p_space h-100">
                 <div>
-                  <p className=" fs_xsm clr_brown mb-2">
+                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
                     "I was blown away by the quality and elegance of my glass
                     basin. It’s the perfect center piece for my bathroom, and
                     the craftsmanship is outstanding!"
@@ -875,7 +876,7 @@ const Home = () => {
             <div className=" col-md-4 col-sm-6 col-10 position-relative mt-4 m-auto">
               <div className=" p_space h-100">
                 <div>
-                  <p className=" fs_xsm clr_brown mb-2">
+                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
                     "The glass countertop exceeded my expectations! It’s
                     durable, easy to maintain, and adds a modern touch to my
                     kitchen. Highly recommended!"
@@ -906,7 +907,7 @@ const Home = () => {
             <div className=" col-md-4 col-sm-6 col-10 mt-4 m-auto">
               <div className=" p_space h-100">
                 <div>
-                  <p className=" fs_xsm clr_brown mb-2">
+                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
                     "The glass countertop exceeded my expectations! It’s
                     durable, easy to maintain, and adds a modern touch to my
                     kitchen. Highly recommended!"
@@ -930,7 +931,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <button className=" view_button d-flex m-auto mt-4">VIEW ALL</button>
+          <button className=" view_button d-flex m-auto mt-4 font_helvetica">VIEW ALL</button>
         </div>
       </section>
 
@@ -946,17 +947,17 @@ const Home = () => {
                 alt="star"
               />
               <div className=" text-lg-start text-center">
-                <p className="clr_grey fs_lg">
+                <p className="clr_grey fs_lg font_sedan">
                   PERFECTLY CONTROLED GLASS FUSING AND THERMOFORMING
                 </p>
-                <p className="fs_sm clr_brown">
+                <p className="fs_sm clr_brown font_helvetica">
                   Consistency in manufacturing for more than twenty years,
                   Proven protective packaging!
                 </p>
               </div>
             </div>
             <div className="col-12 col-xl-2 col-lg-3 d-flex justify-content-center justify-content-lg-end mt-sm-3">
-              <button className="expert_button">MEET OUR EXPERTS</button>
+              <button className="expert_button font_helvetica">MEET OUR EXPERTS</button>
             </div>
           </div>
         </div>
@@ -972,7 +973,7 @@ const Home = () => {
               src="./src/assets/Images/png/sstar.png"
               alt="star"
             />
-            <p className="clr_brown fs_xsm pe-3 ps-3 mb-0">
+            <p className="clr_brown fs_xsm pe-3 ps-3 mb-0 font_helvetica">
               SUBSCRIBE TO OUR E-MAILS
             </p>
             <img
@@ -982,8 +983,8 @@ const Home = () => {
             />
           </div>
 
-          <p className="fs_lg clr_grey text-center mb-2">OUR NEWSLETTER</p>
-          <p className="fs_xsm clr_brown text-center mb-4">
+          <p className="fs_lg clr_grey text-center mb-2 font_sedan">OUR NEWSLETTER</p>
+          <p className="fs_xsm clr_brown text-center mb-4 font_helvetica">
             Be the first to know about new collections and exclusive offers.
           </p>
 
@@ -993,10 +994,10 @@ const Home = () => {
               type="email"
               placeholder="Enter your email"
             />
-            <button className="subscribe_btn">SUBSCRIBE</button>
+            <button className="subscribe_btn font_helvetica">SUBSCRIBE</button>
           </div>
 
-          <p className="fs_1xsm clr_brown text-center mb-5">
+          <p className="fs_1xsm clr_brown text-center mb-5 font_helvetica">
             *By clicking 'SUBSCRIBE' you agree that you have read and understood
             Verre Gallery’s Privacy Policy.
           </p>

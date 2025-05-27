@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+.font_sedan {
+  font-family: "Sedan SC", serif;
+}
 
 * {
     padding: 0;
@@ -43,7 +48,7 @@ p {
     --fs_lg: 33px;
     --fs_xl: 40px;
     --fs_1xl: 45px;
-    --fs_2xl: 60px;
+    --fs_2xl: 54px;
     --clr_brown: #2B2B2B;
     --clr_grey: #17313A;
     --clr_cream: #DFCEBC;
@@ -128,6 +133,10 @@ background-color: var(--bgc_sky_blue);
 
 .custom_vh{
   min-height: calc(100vh - 155px);
+}
+
+.custom_vh1{
+  min-height: calc(100vh - 179px);
 }
 
 .shop{
@@ -523,7 +532,7 @@ left: 15%;
     --fs_lg: 33px;
     --fs_xl: 40px;
     --fs_1xl: 45px;
-    --fs_2xl: 60px;
+    --fs_2xl: 54px;
 }
 
 .shop{

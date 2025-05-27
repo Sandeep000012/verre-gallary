@@ -20,7 +20,7 @@ const Navbar = () => {
               <div className="scroll-wrapper w-100 d-md-none">
                 <div className="scroll-content d-flex align-items-center m-auto">
                   <span className="fs_sm clr_brown me-3">{"<"}</span>
-                  <p className="fs_sm clr_brown fw-normal m-0">
+                  <p className="fs_sm clr_brown fw-normal m-0 font_helvetica">
                     Exclusive Deals on all Glass Basins Collections –{" "}
                     <a href="#" className="text-decoration-underline clr_brown">
                       Don’t Miss Out!
@@ -74,12 +74,12 @@ const Navbar = () => {
               {/* Desktop Menu - only visible ≥ md */}
               <ul className="d-none d-md-flex mb-0">
                 <li>
-                  <NavLink className="fs_sm clr_grey me-4" to="/">
+                  <NavLink className="fs_sm clr_grey me-4 font_helvetica" to="/">
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="fs_sm clr_grey d-flex gap-2" to="/Shop">
+                  <NavLink className="fs_sm clr_grey d-flex gap-2 font_helvetica" to="/Shop">
                     Shop{" "}
                     <span>
                       <img
@@ -106,12 +106,12 @@ const Navbar = () => {
               {/* Desktop links - only visible ≥ md */}
               <ul className="d-none d-md-flex align-items-center mb-0 me-3">
                 <li>
-                  <NavLink className="fs_sm clr_grey me-4" to="/About">
+                  <NavLink className="fs_sm clr_grey me-4 font_helvetica" to="/About">
                     About
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="fs_sm clr_grey me-4" to="/Contact">
+                  <NavLink className="fs_sm clr_grey me-4 font_helvetica" to="/Contact">
                     Contact
                   </NavLink>
                 </li>
