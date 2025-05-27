@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div className=" min-vh-100 d-flex flex-column">
         <Navbar />
-        <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
+        <div className=" about_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
           <div className=" my_container">
             <p className=" fs_2xl text-white text-center w-50 m-auto">
               Introducing Our Newest Glass Creations!
