@@ -136,7 +136,11 @@ background-color: var(--bgc_sky_blue);
 }
 
 .custom_vh1{
-  min-height: calc(100vh - 179px);
+  min-height: calc(100vh - 159px);
+}
+
+.w_65 {
+  width: 65%;
 }
 
 .shop{
@@ -219,6 +223,21 @@ left: 15%;
 .img_c{
     height: 40px;
     width: 40px;
+}
+
+.stry_img{
+    height: 550px;
+    width: 330px;
+}
+
+.stry_img2{
+    height: 350px;
+    width: 300px;
+}
+
+.p_img2{
+    height: 80px;
+    width: 80px;
 }
 
 .border1{
@@ -370,6 +389,14 @@ input {
     display: block;
   }
 
+    .cmt_box {
+  padding: 10px 5px;
+ }
+
+ .commitment_img{
+    padding-block: 40px;
+}
+
 }
 
 @media (min-width: 576px) {
@@ -410,6 +437,14 @@ left: 5%;
 
 .t_center1{
   text-align: center;
+}
+
+  .cmt_box {
+  padding: 25px 30px;
+ }
+
+ .commitment_img{
+    padding-block: 50px;
 }
 
 }
@@ -467,6 +502,15 @@ left: 5%;
    .logo-responsive {
     width: 150px;
   }
+
+  .cmt_box {
+  padding: 42px 55px;
+ }
+
+ .commitment_img{
+    padding-block: 60px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -495,7 +539,7 @@ left: 5%;
 }
 
 .p_btn{
-left: 15%;
+   left: 15%;
 }
 
 .w_20{
@@ -517,8 +561,17 @@ left: 15%;
 .desktop-nav {
   display: flex;
 }
+
 .expert_button{
     padding: 10px 14px;
+}
+
+.cmt_box {
+  padding: 45px 70px;
+}
+
+.commitment_img{
+    padding-block: 70px;
 }
 
 }
@@ -568,6 +621,14 @@ left: 15%;
     padding: 10px 15px;
 }
 
+.cmt_box {
+  padding: 50px 80px;
+}
+
+.commitment_img{
+    padding-block: 80px;
+}
+
 }
 
 
@@ -578,4 +639,31 @@ left: 15%;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.commitment_img{
+    background-image: url(./assets/Images/png/cmtmt.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 80px;
+}
+
+.cmt_box {
+  background-color: #DFCEBC;
+}
+
+.message_btn {
+  background-color: #009DD9;
+  padding: 15px 55px;
+  border: none;
+}
+
+.return_box {
+  background-color: #F8F8F8;
+  padding: 25px 60px;
+}
+
+textarea{
+  border: 2px solid #17313A;
 }

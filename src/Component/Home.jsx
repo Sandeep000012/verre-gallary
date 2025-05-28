@@ -842,7 +842,7 @@ const Home = () => {
             HEAR FROM OUR SATISFIED CUSTOMERS
           </p>
           <div className=" row justify-content-between">
-            <div className=" col-md-4 col-sm-6 col-10 position-relative mt-4 m-auto ">
+            <div className=" col-md-3 col-sm-6 col-10 position-relative mt-4 m-auto ">
               <div className=" p_space h-100">
                 <div>
                   <p className=" fs_xsm clr_brown mb-2 font_helvetica">
@@ -867,13 +867,13 @@ const Home = () => {
                   />
                 </div>
               </div>
-              {/* <img
-              className=" img_c s1 d-none d-md-block"
+              <img
+              className=" img_c s1 d-none d-lg-block"
               src="./src/assets/Images/png/sstar.png"
               alt="star"
-            /> */}
+            />
             </div>
-            <div className=" col-md-4 col-sm-6 col-10 position-relative mt-4 m-auto">
+            <div className=" col-md-3 col-sm-6 col-10 position-relative mt-4 m-auto">
               <div className=" p_space h-100">
                 <div>
                   <p className=" fs_xsm clr_brown mb-2 font_helvetica">
@@ -898,13 +898,13 @@ const Home = () => {
                   />
                 </div>
               </div>
-              {/* <img
-              className=" img_c s1 d-none d-md-block"
+              <img
+              className=" img_c s1 d-none d-lg-block"
               src="./src/assets/Images/png/sstar.png"
               alt="star"
-            /> */}
+            />
             </div>
-            <div className=" col-md-4 col-sm-6 col-10 mt-4 m-auto">
+            <div className=" col-md-3 col-sm-6 col-10 mt-4 m-auto">
               <div className=" p_space h-100">
                 <div>
                   <p className=" fs_xsm clr_brown mb-2 font_helvetica">
@@ -965,7 +965,7 @@ const Home = () => {
 
       {/* ////////////////////////////OUR NEWSLETTER//////////////// */}
 
-      <section>~
+      <section>
         <div>
           <div className="d-flex align-items-center justify-content-center flex-wrap mb-2 text-center">
             <img

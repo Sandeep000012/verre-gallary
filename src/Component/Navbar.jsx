@@ -1,7 +1,6 @@
 // import React from "react";
 import { NavLink } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* ///////////////blue screen//////////// */}
+    
       <nav>
         <div className="bgc_sky_blue pt-2 pb-2 position-relative overflow-hidden">
           <div className="my_container">
@@ -48,7 +47,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* //////////////////hamburger/////////// */}
-        <div className="my_container position-relative">
+        <div className="my_container position-relative mb-0">
           <div className="d-flex align-items-center justify-content-between pt-4 pb-4">
             {/* Left Side - Hamburger + Search */}
             <div className="d-flex align-items-center">
@@ -181,9 +180,7 @@ const Navbar = () => {
             ></div>
           )}
         </div>
-         
       </nav>
-        
     </>
   );
 };
