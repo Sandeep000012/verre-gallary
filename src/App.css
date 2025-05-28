@@ -397,6 +397,18 @@ input {
     padding-block: 40px;
 }
 
+  .return_box {
+  padding: 20px 20px;
+}
+
+.message_btn {
+  padding: 10px 21px;
+}
+
+.login_btn {
+  padding: 8px 31px;
+}
+
 }
 
 @media (min-width: 576px) {
@@ -425,7 +437,7 @@ input {
 }
 
 .p_btn{
-left: 5%;
+     left: 5%;
 }
 
 .w_20{
@@ -445,6 +457,18 @@ left: 5%;
 
  .commitment_img{
     padding-block: 50px;
+}
+
+.return_box {
+  padding: 20px 30px;
+}
+
+.message_btn {
+  padding: 13px 35px;
+}
+
+.login_btn {
+  padding: 10px 40px;
 }
 
 }
@@ -511,6 +535,18 @@ left: 5%;
     padding-block: 60px;
 }
 
+.return_box {
+  padding: 20px 40px;
+}
+
+.message_btn {
+  padding: 15px 40px;
+}
+
+.login_btn {
+  padding: 11px 48px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -574,6 +610,18 @@ left: 5%;
     padding-block: 70px;
 }
 
+.return_box {
+  padding: 25px 55px;
+}
+
+.message_btn {
+  padding: 15px 50px;
+}
+
+.login_btn {
+  padding: 13px 65px;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -629,6 +677,18 @@ left: 5%;
     padding-block: 80px;
 }
 
+.return_box {
+  padding: 25px 60px;
+}
+
+.message_btn {
+  padding: 15px 55px;
+}
+
+.login_btn {
+  padding: 15px 70px;
+}
+
 }
 
 
@@ -655,15 +715,18 @@ left: 5%;
 
 .message_btn {
   background-color: #009DD9;
-  padding: 15px 55px;
   border: none;
 }
 
 .return_box {
   background-color: #F8F8F8;
-  padding: 25px 60px;
 }
 
 textarea{
   border: 2px solid #17313A;
+}
+
+.login_btn {
+  background-color: #009DD9;
+  border: none;
 }
