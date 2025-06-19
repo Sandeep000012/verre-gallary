@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import sstar from "../assets/Images/png/sstar.png"
+import Button from "../Components/Button";
 
 const Log_In = () => {
+  const login_btn = `login_btn d-flex m-auto mt-4`
   return (
     <>
       <Navbar />
@@ -53,9 +55,10 @@ const Log_In = () => {
               name="password"
               placeholder="Enter Passwords"
             />
-            <button className=" login_btn text-white fs_md font_helvetica mt-4 d-flex m-auto">
+            {/* <button className=" login_btn text-white fs_md font_helvetica mt-4 d-flex m-auto">
               LOG IN
-            </button>
+            </button> */}
+            <Button  text="LOG IN" style={login_btn} />
             <p className=" fs_xsm clr_grey1 font_helvetica mt-3">Don’t have an account ? <span className=" text-decoration-underline">SIGN UP</span></p>
           </div>
         </div>
@@ -110,7 +113,7 @@ const Log_In = () => {
             />
           </div>
           <div className=" overflow-hidden d-flex justify-content-center">
-            <p className=" fs_xl clr_grey fw-normal text-center scroll-content font_sedan">
+            <p className=" fs_lg clr_grey fw-normal text-center scroll-content font_sedan">
               EXPERIENCE THE TIMELESS BEAUTY OF GLASS
             </p>
           </div>

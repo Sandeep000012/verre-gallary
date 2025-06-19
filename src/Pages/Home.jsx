@@ -4,35 +4,41 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "../Components/Footer";
-import wbasin1 from "../assets/Images/png/wbasin1.png"
-import wbasin2 from "../assets/Images/png/wbasin2.png"
-import wbasin3 from "../assets/Images/png/wbasin3.png"
-import wbasin4 from "../assets/Images/png/wbasin4.png"
-import stars from "../assets/Images/png/stars.png"
-import like from "../assets/Images/png/like.png"
-import colors from "../assets/Images/png/colors.png"
-import sstar from "../assets/Images/png/sstar.png"
-import D1 from "../assets/Images/png/D1.png"
-import D2 from "../assets/Images/png/D2.png"
-import D3 from "../assets/Images/png/D3.png"
-import D4 from "../assets/Images/png/D4.png"
-import D5 from "../assets/Images/png/D5.png"
-import aa from "../assets/Images/png/aa.png"
-import bb from "../assets/Images/png/bb.png"
-import wt1 from "../assets/Images/png/wt1.png"
-import wt2 from "../assets/Images/png/wt2.png"
-import wt3 from "../assets/Images/png/wt3.png"
-import wt4 from "../assets/Images/png/wt4.png"
-import c1 from "../assets/Images/png/c1.png"
-import c2 from "../assets/Images/png/c2.png"
-import c3 from "../assets/Images/png/c3.png"
-import c4 from "../assets/Images/png/c4.png"
-import fp from "../assets/Images/png/fp.png"
-import girl from "../assets/Images/png/girl.png"
-import stars1 from "../assets/Images/png/stars1.png"
-
+import wbasin1 from "../assets/Images/png/wbasin1.png";
+import wbasin2 from "../assets/Images/png/wbasin2.png";
+import wbasin3 from "../assets/Images/png/wbasin3.png";
+import wbasin4 from "../assets/Images/png/wbasin4.png";
+import stars from "../assets/Images/png/stars.png";
+import like from "../assets/Images/png/like.png";
+import colors from "../assets/Images/png/colors.png";
+import sstar from "../assets/Images/png/sstar.png";
+import D1 from "../assets/Images/png/D1.png";
+import D2 from "../assets/Images/png/D2.png";
+import D3 from "../assets/Images/png/D3.png";
+import D4 from "../assets/Images/png/D4.png";
+import D5 from "../assets/Images/png/D5.png";
+import aa from "../assets/Images/png/aa.png";
+import bb from "../assets/Images/png/bb.png";
+import wt1 from "../assets/Images/png/wt1.png";
+import wt2 from "../assets/Images/png/wt2.png";
+import wt3 from "../assets/Images/png/wt3.png";
+import wt4 from "../assets/Images/png/wt4.png";
+import c1 from "../assets/Images/png/c1.png";
+import c2 from "../assets/Images/png/c2.png";
+import c3 from "../assets/Images/png/c3.png";
+import c4 from "../assets/Images/png/c4.png";
+import fp from "../assets/Images/png/fp.png";
+import Button from "../Components/Button";
+import Customer from "../Components/Customer";
 
 const Home = () => {
+  const shobtn = `mt-5 shop d-flex m-auto`;
+  const Homebtn = `mt-3 about_btn`;
+  const prdctbtn = `product_btn`;
+  const explrbtn = `explore_btn d-flex m-auto`;
+  const exprtbtn = `expert_btn`;
+  const sbscribe_btn = ` subscribe_btn`;
+
   const sliderRef = useRef(null);
   const sliderRef2 = useRef(null);
   const settings = {
@@ -151,8 +157,11 @@ const Home = () => {
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
+              {/* <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button> */}
+              <Button text="SHOP NOW" style={shobtn} />
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">
+                NEW IN
+              </p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
@@ -165,8 +174,10 @@ const Home = () => {
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
+              <Button text="SHOP NOW" style={shobtn} />
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">
+                NEW IN
+              </p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
@@ -179,8 +190,10 @@ const Home = () => {
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
+              <Button text="SHOP NOW" style={shobtn} />
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">
+                NEW IN
+              </p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
@@ -193,8 +206,10 @@ const Home = () => {
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
+              <Button text="SHOP NOW" style={shobtn} />
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">
+                NEW IN
+              </p>
             </div>
           </div>
           <div className=" header_img overflow-hidden d-flex flex-column justify-content-center custom_vh">
@@ -207,11 +222,12 @@ const Home = () => {
                 Elevate your space with our latest collection of premium glass
                 basins
               </p>
-              <button className=" shop d-flex m-auto mt-5 font_helvetica">SHOP NOW</button>
-              <p className=" fs_md text-white text-center mt-4 font_helvetica">NEW IN</p>
+              <Button text="SHOP NOW" style={shobtn} />
+              <p className=" fs_md text-white text-center mt-4 font_helvetica">
+                NEW IN
+              </p>
             </div>
           </div>
-        
         </Slider>
       </div>
 
@@ -222,7 +238,9 @@ const Home = () => {
           <div className=" d-flex justify-content-between align-items-center mt-3">
             <p className=" fs_1xl clr_grey font_sedan">Shop Bestsellers</p>
             <div className=" d-flex">
-              <p className=" text-decoration-underline me-1 font_helvetica">VIEW ALL</p>
+              <p className=" text-decoration-underline me-1 font_helvetica">
+                VIEW ALL
+              </p>
               <p>
                 <span>{">"}</span>
               </p>
@@ -234,11 +252,7 @@ const Home = () => {
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wbasin1}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wbasin1} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder">
@@ -247,39 +261,23 @@ const Home = () => {
                     <p className=" fs_xsm mb-1 font_helvetica">LAS121</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 3,995.00</p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown">12.9k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wbasin2}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wbasin2} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder font_helvetica">
@@ -288,39 +286,23 @@ const Home = () => {
                     <p className=" fs_xsm mb-1 font_helvetica">LAS101</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 5,495.00</p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown">6.8k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wbasin3}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wbasin3} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder font_helvetica">
@@ -329,39 +311,23 @@ const Home = () => {
                     <p className=" fs_xsm mb-1 font_helvetica">LAS120</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 4,495.00</p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown">4.8k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wbasin4}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wbasin4} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder font_helvetica">
@@ -370,28 +336,16 @@ const Home = () => {
                     <p className=" fs_xsm mb-1 font_helvetica">LAS303</p>
                     <p className=" fs_sm fw-bolder clr_brown">$ 3,995.00</p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown">8.5k</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
@@ -419,95 +373,70 @@ const Home = () => {
       <section>
         <div className=" d-flex align-items-center justify-content-between mt-4">
           <div className=" d-flex align-items-center d-none d-md-flex">
-            <img
-              className=" img_c"
-              src={sstar}
-              alt="star"
-            />
-            <p className=" fs_sm clr_brown text-decoration-underline ms-5 me-5 font_helvetica">
+            <img className=" img_c" src={sstar} alt="star" />
+            <p className=" fs_sm clr_brown text-decoration-underline ms-2 me-2 font_helvetica">
               SHOP NOW
             </p>
-            <img
-              className=" img_c "
-              src={sstar}
-              alt="star"
-            />
+            <img className=" img_c " src={sstar} alt="star" />
           </div>
           <div className=" overflow-hidden d-flex justify-content-center">
-            <p className=" fs_1xl clr_grey fw-normal text-center scroll-content font_sedan">
+            <p className=" fs_xl clr_grey fw-normal text-center scroll-content font_sedan">
               DARE TO DREAM, WE DO THE BEST
             </p>
           </div>
           <div className=" d-flex align-items-center d-none d-md-flex">
-            <img
-              className=" img_c"
-              src={sstar}
-              alt="star"
-            />
-            <p className=" fs_sm clr_brown text-decoration-underline ms-5 me-5 font_helvetica">
+            <img className=" img_c" src={sstar} alt="star" />
+            <p className=" fs_sm clr_brown text-decoration-underline ms-2 me-2 font_helvetica">
               SHOP NOW
             </p>
-            <img
-              className=" img_c"
-              src={sstar}
-              alt="star"
-            />
+            <img className=" img_c" src={sstar} alt="star" />
           </div>
         </div>
         <div className=" d-flex align-items-center mt-5 flex-wrap justify-content-center">
           <div className=" w_20 position-relative">
-            <img
-              className=" w-100"
-              src={D1}
-              alt="basin"
-            />
+            <img className=" w-100" src={D1} alt="basin" />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2 font_sedan">BASIN</p>
-              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">
+                BASIN
+              </p>
+              {/* <button className=" product_btn font_helvetica">VIEW PRODCUTS</button> */}
+              <Button text="VIEW PRODCUTS" style={prdctbtn} />
             </div>
           </div>
           <div className=" w_20 position-relative">
-            <img
-              className=" w-100"
-              src={D2}
-              alt="PEDESTAL"
-            />
+            <img className=" w-100" src={D2} alt="PEDESTAL" />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2 font_sedan">PEDESTAL</p>
-              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">
+                PEDESTAL
+              </p>
+              <Button text="VIEW PRODCUTS" style={prdctbtn} />
             </div>
           </div>
           <div className=" w_20 position-relative">
-            <img
-              className=" w-100"
-              src={D3}
-              alt="UNDERMOUNT"
-            />
+            <img className=" w-100" src={D3} alt="UNDERMOUNT" />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2 font_sedan">UNDERMOUNT</p>
-              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">
+                UNDERMOUNT
+              </p>
+              <Button text="VIEW PRODCUTS" style={prdctbtn} />
             </div>
           </div>
           <div className=" w_20 position-relative">
-            <img
-              className=" w-100"
-              src={D4}
-              alt="DROP-IN"
-            />
+            <img className=" w-100" src={D4} alt="DROP-IN" />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2 font_sedan">DROP-IN</p>
-              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">
+                DROP-IN
+              </p>
+              <Button text="VIEW PRODCUTS" style={prdctbtn} />
             </div>
           </div>
           <div className=" w_20 position-relative">
-            <img
-              className=" w-100"
-              src={D5}
-              alt="CUSTOM"
-            />
+            <img className=" w-100" src={D5} alt="CUSTOM" />
             <div className=" p_btn">
-              <p className=" fs_md fw-normal text-white mb-2 font_sedan">CUSTOM</p>
-              <button className=" product_btn font_helvetica">VIEW PRODCUTS</button>
+              <p className=" fs_md fw-normal text-white mb-2 font_sedan">
+                CUSTOM
+              </p>
+              <Button text="VIEW PRODCUTS" style={prdctbtn} />
             </div>
           </div>
         </div>
@@ -520,11 +449,7 @@ const Home = () => {
           <div className="row align-items-center justify-content-between flex-column-reverse flex-md-row text-center text-md-start">
             <div className="col-12 col-md-5 mt-4 mt-md-0">
               <div className="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
-                <img
-                  className="img_c me-3"
-                  src={sstar}
-                  alt="star"
-                />
+                <img className="img_c me-3" src={sstar} alt="star" />
                 <p className="fs_xsm fw-normal clr_brown mb-0 font_helvetica">
                   TIMELESS GLASSWORKS
                 </p>
@@ -539,17 +464,14 @@ const Home = () => {
                 masterpiece, our commitment to precision and excellence ensures
                 that every product reflects sophistication and elegance.
               </p>
-              <button className="about_btn mt-4 mx-auto mx-md-0 font_helvetica">
+              {/* <button className="about_btn mt-4 mx-auto mx-md-0 font_helvetica">
                 ABOUT US
-              </button>
+              </button> */}
+              <Button text="ABOUT US" style={Homebtn} />
             </div>
 
             <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end position-relative mb-4 mb-md-0 overflow-hidden">
-              <img
-                className="w-75"
-                src={aa}
-                alt="main"
-              />
+              <img className="w-75" src={aa} alt="main" />
               <img
                 className="w-50 glass position-absolute"
                 src={bb}
@@ -567,7 +489,9 @@ const Home = () => {
           <div className=" d-flex justify-content-between align-items-center mt-3 mb-3">
             <p className=" fs_1xl clr_grey font_sedan">New Arrivals</p>
             <div className=" d-flex">
-              <p className=" text-decoration-underline me-1 font_helvetica">VIEW ALL</p>
+              <p className=" text-decoration-underline me-1 font_helvetica">
+                VIEW ALL
+              </p>
               <p>
                 <span>{">"}</span>
               </p>
@@ -579,162 +503,108 @@ const Home = () => {
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wt1}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wt1} alt="washbasin" />
                   </div>
                   <div>
-                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">Round Vessel</p>
+                    <p className=" fs_sm clr_grey fw-bolder font_helvetica">
+                      Round Vessel
+                    </p>
                     <p className=" fs_xsm mb-1 font_helvetica">LAS03</p>
-                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 2,095.00</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">
+                      $ 2,095.00
+                    </p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown font_helvetica">598</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wt2}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wt2} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Small round basin squared
                     </p>
                     <p className=" fs_xsm mb-1 font_helvetica">LAS121</p>
-                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 4,195.00</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">
+                      $ 4,195.00
+                    </p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown font_helvetica">125</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wt3}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wt3} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Round vessel 3 levels
                     </p>
                     <p className=" fs_xsm mb-1 font_helvetica">LAS053</p>
-                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 3,495.00</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">
+                      $ 3,495.00
+                    </p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown font_helvetica">78</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
               <div className=" pe-3">
                 <div className=" p_space">
                   <div>
-                    <img
-                      className=" w-100"
-                      src={wt4}
-                      alt="washbasin"
-                    />
+                    <img className=" w-100" src={wt4} alt="washbasin" />
                   </div>
                   <div>
                     <p className=" fs_sm clr_grey fw-bolder font_helvetica">
                       Modern shallow rectangular bowl
                     </p>
                     <p className=" fs_xsm mb-1 font_helvetica">LAS072</p>
-                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">$ 2,895.00</p>
+                    <p className=" fs_sm fw-bolder clr_brown font_helvetica">
+                      $ 2,895.00
+                    </p>
                     <div className=" d-flex align-items-center">
-                      <img
-                        className=" w-50 me-2"
-                        src={stars}
-                        alt="rating"
-                      />
+                      <img className=" w-50 me-2" src={stars} alt="rating" />
                       <p className=" fs_sm clr_brown font_helvetica">105</p>
                     </div>
                     <div className=" d-flex align-items-center justify-content-between mt-3">
                       <button className=" cart fs_sm clr_grey font_helvetica">
                         Add to Cart
                       </button>
-                      <img
-                        className=" w_15 me-2"
-                        src={like}
-                        alt="like"
-                      />
+                      <img className=" w_15 me-2" src={like} alt="like" />
                     </div>
-                    <img
-                      className=" w-100 mt-3"
-                      src={colors}
-                      alt="colors"
-                    />
+                    <img className=" w-100 mt-3" src={colors} alt="colors" />
                   </div>
                 </div>
               </div>
@@ -765,35 +635,21 @@ const Home = () => {
             {/* <!-- Left Image Column --> */}
             <div className="col-12 col-md-4 order-1 order-md-1">
               <div className="mb-4">
-                <img
-                  className="w-100"
-                  src={c1}
-                  alt="catalouge"
-                />
+                <img className="w-100" src={c1} alt="catalouge" />
               </div>
               <div>
-                <img
-                  className="w-100"
-                  src={c2}
-                  alt="catalouge"
-                />
+                <img className="w-100" src={c2} alt="catalouge" />
               </div>
             </div>
             {/* 
     <!-- Middle Text Column --> */}
             <div className="col-12 col-md-4 mb-3 order-2 order-md-2 mt-2">
               <div className="d-flex align-items-center justify-content-center">
-                <img
-                  className="img_c"
-                  src={sstar}
-                  alt="star"
-                />
-                <p className="fs_xsm clr_brown ms-2 me-2 font_helvetica">OUR CATALOGUES</p>
-                <img
-                  className="img_c"
-                  src={sstar}
-                  alt="star"
-                />
+                <img className="img_c" src={sstar} alt="star" />
+                <p className="fs_xsm clr_brown ms-2 me-2 font_helvetica">
+                  OUR CATALOGUES
+                </p>
+                <img className="img_c" src={sstar} alt="star" />
               </div>
               <p className="fs_lg clr_brown mb-3 text-center font_sedan">
                 The Regal Work Of Glass Masterpieces
@@ -803,24 +659,17 @@ const Home = () => {
                 accessories and more. Crafted for elegance, designed for
                 royalty.
               </p>
-              <button className="explore_btn d-flex m-auto font_helvetica">EXPLORE</button>
+              {/* <button className="explore_btn d-flex m-auto font_helvetica">EXPLORE</button> */}
+              <Button text="EXPLORE" style={explrbtn} />
             </div>
 
             {/* <-- Right Image Column --> */}
             <div className="col-12 col-md-4 order-3 order-md-3">
               <div className="mb-4">
-                <img
-                  className="w-100"
-                  src={c3}
-                  alt="catalouge"
-                />
+                <img className="w-100" src={c3} alt="catalouge" />
               </div>
               <div>
-                <img
-                  className="w-100"
-                  src={c4}
-                  alt="catalouge"
-                />
+                <img className="w-100" src={c4} alt="catalouge" />
               </div>
             </div>
           </div>
@@ -833,19 +682,15 @@ const Home = () => {
         <div className="bg_img2 mt-5 pt-5">
           <div className="my_container">
             <div className="row align-items-center justify-content-between text-center text-md-start">
-              <div className="col-md-6 col-sm-6 mb-4 mb-md-0">
+              <div className="col-md-6 col-sm-6 col-7 mb-4 mb-md-0">
                 <p className="fs_xl text-white font_sedan">Featured Product</p>
                 <p className="fs_xsm text-white mb-5 font_helvetica">
                   "Elegant Basin & Countertop Glassworks – Crafted for Style &
                   Durability"
                 </p>
-                <img
-                  className="w-100"
-                  src={fp}
-                  alt="glasswork"
-                />
+                <img className="w-100" src={fp} alt="glasswork" />
               </div>
-              <div className="col-md-6 col-sm-6 col-12">
+              <div className="col-md-6 col-sm-6 col-7">
                 <p className="fs_lg text-white text-center">
                   PURE <span className="fs_md font_sedan">TRANSITION</span>
                 </p>
@@ -863,128 +708,33 @@ const Home = () => {
 
       {/* ////////////////////////////Customers/////////////////////// */}
 
-      <section>
-        <div className=" my_container mt-5">
-          <p className=" fs_1xl clr_grey text-center font_sedan">
-            HEAR FROM OUR SATISFIED CUSTOMERS
-          </p>
-          <div className=" row justify-content-between">
-            <div className=" col-md-3 col-sm-6 col-10 position-relative mt-4 m-auto ">
-              <div className=" p_space h-100">
-                <div>
-                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
-                    "I was blown away by the quality and elegance of my glass
-                    basin. It’s the perfect center piece for my bathroom, and
-                    the craftsmanship is outstanding!"
-                  </p>
-                </div>
-                <div className=" d-flex align-items-center justify-content-between mt-3 border1 pt-2">
-                  <div className=" d-flex align-items-center gap-2">
-                    <img
-                      className=" w-25"
-                      src={girl}
-                      alt="girl"
-                    />
-                    <p className=" fs_xsm clr_grey">Emily R.</p>
-                  </div>
-                  <img
-                    className=" w-50"
-                    src={stars1}
-                    alt="star"
-                  />
-                </div>
-              </div>
-              <img
-              className=" img_c s1 d-none d-lg-block"
-              src={sstar}
-              alt="star"
-            />
-            </div>
-            <div className=" col-md-3 col-sm-6 col-10 position-relative mt-4 m-auto">
-              <div className=" p_space h-100">
-                <div>
-                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
-                    "The glass countertop exceeded my expectations! It’s
-                    durable, easy to maintain, and adds a modern touch to my
-                    kitchen. Highly recommended!"
-                  </p>
-                </div>
-                <div className=" d-flex align-items-center justify-content-between mt-3 border1 pt-2">
-                  <div className=" d-flex align-items-center gap-2">
-                    <img
-                      className=" w-25"
-                      src={girl}
-                      alt="girl"
-                    />
-                    <p className=" fs_xsm clr_grey">Daniel K.</p>
-                  </div>
-                  <img
-                    className=" w-50"
-                    src={stars1}
-                    alt="star"
-                  />
-                </div>
-              </div>
-              <img
-              className=" img_c s1 d-none d-lg-block"
-              src={sstar}
-              alt="star"
-            />
-            </div>
-            <div className=" col-md-3 col-sm-6 col-10 mt-4 m-auto">
-              <div className=" p_space h-100">
-                <div>
-                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
-                    "The glass countertop exceeded my expectations! It’s
-                    durable, easy to maintain, and adds a modern touch to my
-                    kitchen. Highly recommended!"
-                  </p>
-                </div>
-                <div className=" d-flex align-items-center justify-content-between mt-3 border1 pt-2">
-                  <div className=" d-flex align-items-center gap-2">
-                    <img
-                      className=" w-25"
-                      src={girl}
-                      alt="girl"
-                    />
-                    <p className=" fs_xsm clr_grey">Melissa W.</p>
-                  </div>
-                  <img
-                    className=" w-50"
-                    src={stars1}
-                    alt="star"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <button className=" view_button d-flex m-auto mt-4 font_helvetica">VIEW ALL</button>
-        </div>
-      </section>
+      <Customer />
 
       {/* /////////////////////////EXPERTS///////////////////////// */}
 
       <section>
         <div className="my_container mt-5 mb-5">
           <div className="bgc_cream py-4 px-3 row align-items-center justify-content-between flex-column flex-md-row text-center text-md-start">
-            <div className="col-12 col-xl-10 col-lg-9 mb-3 mb-md-0">
-              <img
+            <div className="col-12 col-xl-9 col-lg-9 mb-3 mb-md-0">
+              {/* <img
                 className="img_c mb-2"
                 src={sstar}
                 alt="star"
-              />
+              /> */}
               <div className=" text-lg-start text-center">
-                <p className="clr_grey fs_lg font_sedan">
+                <p className="clr_grey fs_md font_sedan">
+                  <span className="text-primary">✦</span>
                   PERFECTLY CONTROLED GLASS FUSING AND THERMOFORMING
                 </p>
-                <p className="fs_sm clr_brown font_helvetica">
+                <p className="fs_xsm clr_brown font_helvetica">
                   Consistency in manufacturing for more than twenty years,
                   Proven protective packaging!
                 </p>
               </div>
             </div>
-            <div className="col-12 col-xl-2 col-lg-3 d-flex justify-content-center justify-content-lg-end mt-sm-3">
-              <button className="expert_button font_helvetica">MEET OUR EXPERTS</button>
+            <div className="col-12 col-xl-3 col-lg-3 d-flex justify-content-center justify-content-lg-end mt-sm-3">
+              {/* <button className="expert_button font_helvetica">MEET OUR EXPERTS</button> */}
+              <Button text="MEET OUR EXPERTS" style={exprtbtn} />
             </div>
           </div>
         </div>
@@ -995,22 +745,16 @@ const Home = () => {
       <section>
         <div>
           <div className="d-flex align-items-center justify-content-center flex-wrap mb-2 text-center">
-            <img
-              className="img_c"
-              src={sstar}
-              alt="star"
-            />
+            <img className="img_c" src={sstar} alt="star" />
             <p className="clr_brown fs_xsm pe-3 ps-3 mb-0 font_helvetica">
               SUBSCRIBE TO OUR E-MAILS
             </p>
-            <img
-              className="img_c"
-              src={sstar}
-              alt="star"
-            />
+            <img className="img_c" src={sstar} alt="star" />
           </div>
 
-          <p className="fs_lg clr_grey text-center mb-2 font_sedan">OUR NEWSLETTER</p>
+          <p className="fs_lg clr_grey text-center mb-2 font_sedan">
+            OUR NEWSLETTER
+          </p>
           <p className="fs_xsm clr_brown text-center mb-4 font_helvetica">
             Be the first to know about new collections and exclusive offers.
           </p>
@@ -1021,7 +765,8 @@ const Home = () => {
               type="email"
               placeholder="Enter your email"
             />
-            <button className="subscribe_btn font_helvetica">SUBSCRIBE</button>
+            {/* <button className="subscribe_btn font_helvetica">SUBSCRIBE</button> */}
+            <Button text="SUBSCRIBE" style={sbscribe_btn} />
           </div>
 
           <p className="fs_1xsm clr_brown text-center mb-5 font_helvetica">

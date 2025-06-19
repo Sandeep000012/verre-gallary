@@ -56,6 +56,7 @@ p {
   --bgc_cream: #f8f8f8;
   --bgc_sky_blue: #b1eaff;
   --bgc_black: #2b2b2b;
+  --bgc_blue: #009dd9;
 }
 
 .fs_1xsm {
@@ -102,6 +103,10 @@ p {
   background-color: var(--bgc_black);
 }
 
+.bgc_blue {
+  background-color: var(--bgc_blue);
+}
+
 .clr_brown {
   color: var(--clr_brown);
 }
@@ -128,11 +133,10 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 100vh; */
 }
 
 .custom_vh {
-  min-height: calc(100vh - 155px);
+  min-height: calc(100vh - 140px);
 }
 
 .custom_vh1 {
@@ -157,8 +161,16 @@ p {
   opacity: 0.5;
 }
 
+.w_7 {
+  width: 7%;
+}
+
 .w_15 {
   width: 15%;
+}
+
+.z_index_999 {
+  z-index: 999;
 }
 
 .cart {
@@ -191,13 +203,6 @@ p {
   left: 15%;
 }
 
-.about_btn {
-  color: white;
-  background-color: #009dd9;
-  padding: 12px 120px;
-  border: none;
-}
-
 .explore_btn {
   color: white;
   background-color: #009dd9;
@@ -208,7 +213,6 @@ p {
 .explore1_btn {
   color: black;
   background-color: white;
-  padding: 12px 70px;
   border: none;
 }
 
@@ -327,7 +331,7 @@ input {
     --fs_md: 16px;
     --fs_lg: 19px;
     --fs_xl: 20px;
-    --fs_1xl: 25px;
+    --fs_1xl: 22px;
     --fs_2xl: 30px;
   }
 
@@ -406,6 +410,14 @@ input {
   .login_btn {
     padding: 8px 31px;
   }
+
+  .explore1_btn {
+    padding: 9px 27px;
+  }
+
+  .cart_width {
+    width: 90%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -467,6 +479,14 @@ input {
   .login_btn {
     padding: 10px 40px;
   }
+
+  .explore1_btn {
+    padding: 10px 55px;
+  }
+
+  .cart_width {
+    width: 75%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -508,7 +528,7 @@ input {
   }
 
   .about_btn {
-    padding: 12px 110px;
+    padding: 12px 100px;
   }
 
   .t_center1 {
@@ -541,6 +561,14 @@ input {
 
   .login_btn {
     padding: 11px 48px;
+  }
+
+  .explore1_btn {
+    padding: 12px 60px;
+  }
+
+  .cart_width {
+    width: 50%;
   }
 }
 
@@ -616,6 +644,14 @@ input {
   .login_btn {
     padding: 13px 65px;
   }
+
+  .explore1_btn {
+    padding: 12px 65px;
+  }
+
+  .cart_width {
+    width: 35%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -624,7 +660,7 @@ input {
     --fs_xsm: 18px;
     --fs_sm: 20px;
     --fs_md: 25px;
-    --fs_lg: 33px;
+    --fs_lg: 28px;
     --fs_xl: 40px;
     --fs_1xl: 45px;
     --fs_2xl: 54px;
@@ -660,7 +696,7 @@ input {
   }
 
   .expert_button {
-    padding: 10px 15px;
+    padding: 10px 10px;
   }
 
   .cmt_box {
@@ -681,6 +717,14 @@ input {
 
   .login_btn {
     padding: 15px 70px;
+  }
+
+  .explore1_btn {
+    padding: 12px 70px;
+  }
+
+  .cart_width {
+    width: 25%;
   }
 }
 
@@ -728,5 +772,3 @@ textarea {
   border: none !important;
   outline: none;
 }
-
-

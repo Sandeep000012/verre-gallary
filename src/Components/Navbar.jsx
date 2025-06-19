@@ -9,9 +9,11 @@ import login from "../assets/Images/png/login.png"
 import cart from "../assets/Images/png/cart.png"
 import cart1 from "../assets/Images/png/cart1.png"
 import cart2 from "../assets/Images/png/cart2.png"
+import Button from "../Components/Button";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const buy_btn = `w-100`
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "auto";
@@ -23,6 +25,18 @@ const Navbar = () => {
   };
 
   const [isCartOpen, setIsCartOpen] = useState(false);
+  useEffect(() => {
+    if (isCartOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    // Cleanup function
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isCartOpen]);
 
   return (
     <>
@@ -213,7 +227,7 @@ const Navbar = () => {
           </div>
 
           {isCartOpen && (
-            <div className="position-fixed top-0 end-0 h-100 w-25  bg-white z-index-50 shadow-lg transition-transform translate-x-0">
+            <div className="position-fixed top-0 end-0 h-100 cart_width  bg-white z_index_999 shadow-lg transition-transform translate-x-0">
               {/* Header */}
               <div className="d-flex align-items-center justify-content-between p-3 border-bottom">
                 <h2 className="fs-5 fw-semibold font_sedan">My Cart</h2>
@@ -302,9 +316,10 @@ const Navbar = () => {
                   <p className="text-muted text-center small my-2">
                     *Taxes and shipping calculated at checkout
                   </p>
-                  <button className="btn btn-info w-100 text-white py-2 small fw-semibold">
+                  {/* <button className="btn btn-info w-100 text-white py-2 small fw-semibold">
                     BUY NOW
-                  </button>
+                  </button> */}
+                  <Button  text="BUY NOW" style={buy_btn} />
                 </div>
               </div>
             </div>

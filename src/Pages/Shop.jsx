@@ -2,9 +2,6 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import { Accordion } from "react-bootstrap";
 import Footer from "../Components/Footer";
-import girl from "../assets/Images/png/girl.png";
-import stars1 from "../assets/Images/png/stars1.png";
-import sstar from "../assets/Images/png/sstar.png";
 import stars from "../assets/Images/png/stars.png";
 import wbasin1 from "../assets/Images/png/wbasin1.png";
 import wbasin2 from "../assets/Images/png/wbasin2.png";
@@ -13,90 +10,128 @@ import wbasin4 from "../assets/Images/png/wbasin4.png";
 import img1 from "../assets/Images/png/img1.png";
 import img2 from "../assets/Images/png/img2.png";
 import img3 from "../assets/Images/png/img3.png";
+import ph1 from "../assets/Images/png/ph1.png";
+import ph2 from "../assets/Images/png/ph2.png";
+import ph3 from "../assets/Images/png/ph3.png";
+import right_arrow from "../assets/Images/png/right_arrow.png";
+import Button from "../Components/Button";
+import Customer from "../Components/Customer";
 
 const Shop = () => {
+  const Buybtn = `mt-3 w-100`;
   return (
     <>
-      <Navbar />
-
-      {/* ////////////////////////////Product Reviews/////////////////////// */}
-
-      <section>
-        <div className=" my_container mt-5">
-          <p className=" fs_1xl clr_grey text-center font_sedan">
-            PRODUCT REVIEWS
+      <div>
+        <Navbar />
+        <div className=" my_container">
+          <p className=" fs_xsm clr_grey1 font_helvetica text-start">
+            Home / Shop / Basins /{" "}
           </p>
-          <div className=" row justify-content-between">
-            <div className=" col-md-3 col-sm-6 col-10 position-relative mt-4 m-auto ">
-              <div className=" p_space h-100">
-                <div>
-                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
-                    "I was blown away by the quality and elegance of my glass
-                    basin. It’s the perfect center piece for my bathroom, and
-                    the craftsmanship is outstanding!"
-                  </p>
+          <div className=" row  mt-2">
+            <div className=" col-md-6 col-sm-10 col-12 mx-sm-auto">
+              <div className=" row align-items-start justify-content-between">
+                <div className=" col-2">
+                  <img className=" ph_img w-100" src={ph1} alt="washbasins" />
                 </div>
-                <div className=" d-flex align-items-center justify-content-between mt-3 border1 pt-2">
-                  <div className=" d-flex align-items-center gap-2">
-                    <img className=" w-25" src={girl} alt="girl" />
-                    <p className=" fs_xsm clr_grey">Emily R.</p>
+                <div className=" col-10">
+                  <img
+                    className=" wbasin  w-100 mb-3"
+                    src={ph2}
+                    alt="washbasins"
+                  />
+                  <hr />
+                  <div className=" mt-3">
+                    <Accordion defaultActiveKey="0" flush>
+                      <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                          OUR WARRANTY & GUARANTEE
+                        </Accordion.Header>
+                        <Accordion.Body>
+                          We provide a 1-year warranty on all our basins
+                          covering manufacturing defects.
+                        </Accordion.Body>
+                      </Accordion.Item>
+                      <Accordion.Item eventKey="1">
+                        <Accordion.Header>SHIPPING & RETURNS</Accordion.Header>
+                        <Accordion.Body>
+                          Free shipping within India. Returns accepted within 15
+                          days of delivery.
+                        </Accordion.Body>
+                      </Accordion.Item>
+                    </Accordion>
                   </div>
-                  <img className=" w-50" src={stars1} alt="star" />
+                  <hr />
                 </div>
               </div>
-              <img
-                className=" img_c s1 d-none d-lg-block"
-                src={sstar}
-                alt="star"
-              />
             </div>
-            <div className=" col-md-3 col-sm-6 col-10 position-relative mt-4 m-auto">
-              <div className=" p_space h-100">
+            <div className=" col-md-6 col-sm-10 col-12 mx-sm-auto">
+              <p className=" fs_sm clr_grey fw-bolder font_helvetica">
+                ROUND Basin - on small pedestal with wrought iron support
+              </p>
+              <p className=" fs_xsm1 clr_grey1 font_helvetica">LAS1O1</p>
+
+              <div className=" d-flex align-items-center justify-content-between mt-2">
                 <div>
-                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
-                    "The glass countertop exceeded my expectations! It’s
-                    durable, easy to maintain, and adds a modern touch to my
-                    kitchen. Highly recommended!"
-                  </p>
+                  <p className=" fs_sm fw-bolder clr_brown">$ 3,995.00</p>
                 </div>
-                <div className=" d-flex align-items-center justify-content-between mt-3 border1 pt-2">
-                  <div className=" d-flex align-items-center gap-2">
-                    <img className=" w-25" src={girl} alt="girl" />
-                    <p className=" fs_xsm clr_grey">Daniel K.</p>
-                  </div>
-                  <img className=" w-50" src={stars1} alt="star" />
+                <div className=" d-flex align-items-center justify-content-end">
+                  <img className=" w-50" src={stars} alt="rating" />
+                  <p className=" fs_sm clr_brown">12.9k</p>
                 </div>
               </div>
-              <img
-                className=" img_c s1 d-none d-lg-block"
-                src={sstar}
-                alt="star"
-              />
-            </div>
-            <div className=" col-md-3 col-sm-6 col-10 mt-4 m-auto">
-              <div className=" p_space h-100">
+
+              <hr />
+
+              <p className=" fs_xsm clr_brown font_helvetica">Description:</p>
+              <p className=" fs_sm clr_grey1 font_helvetica">
+                3/4’’ (18mm) thick <br /> Round basin on small pedestal <br />{" "}
+                with wrought iron support
+              </p>
+              <p className=" fs_xsm clr_brown font_helvetica mt-3">
+                Trim finish:
+              </p>
+              <p className=" fs_sm clr_grey1 font_helvetica">
+                Gold – Chrome – Brushed nickel – Satin <br />
+                gold Copper un-plated to paint
+              </p>
+              <p className=" fs_xsm clr_brown font_helvetica mt-3">
+                Standards:
+              </p>
+              <p className=" fs_sm clr_grey1 font_helvetica">
+                # can CGSB 12.1 – M96 <br />
+                # ansi 297.1 – 1984 <br /># cps 16-CE1201C11
+              </p>
+
+              <hr />
+
+              <p className=" fs_xsm clr_brown font_helvetica mt-3">
+                Select Color:
+              </p>
+              <img className=" w-75" src={ph3} alt="color" />
+              <button className=" w-100 fs_sm clr_grey font_helvetica py-2 mt-2 border-dark">
+                Add to Cart
+              </button>
+              <Button text="BUY NOW" style={Buybtn} />
+              <div className=" bgc_cream px-3 py-4 d-flex align-items-center justify-content-between mt-5">
                 <div>
-                  <p className=" fs_xsm clr_brown mb-2 font_helvetica">
-                    "The glass countertop exceeded my expectations! It’s
-                    durable, easy to maintain, and adds a modern touch to my
-                    kitchen. Highly recommended!"
+                  <p className="fs_md font_sedan clr_grey">
+                    <span className="text-primary me-2">✦</span>
+                    INSPIRATION
+                  </p>
+                  <p className="fs_1xsm clr_grey1 font_helvetica ms-4">
+                    Personalize your decor - Start designing
                   </p>
                 </div>
-                <div className=" d-flex align-items-center justify-content-between mt-3 border1 pt-2">
-                  <div className=" d-flex align-items-center gap-2">
-                    <img className=" w-25" src={girl} alt="girl" />
-                    <p className=" fs_xsm clr_grey">Melissa W.</p>
-                  </div>
-                  <img className=" w-50" src={stars1} alt="star" />
-                </div>
+                <img className="img_c" src={right_arrow} alt="right" />
               </div>
             </div>
           </div>
-          <button className=" view_button d-flex m-auto mt-4 font_helvetica">
-            VIEW ALL
-          </button>
         </div>
-      </section>
+      </div>
+
+      {/* ////////////////////////////Product Reviews/////////////////////// */}
+
+      <Customer />
 
       {/* ///////////////////////////You May Also Like///////////////////////// */}
 
@@ -115,7 +150,7 @@ const Shop = () => {
           </div>
 
           <div className=" row">
-            <div className=" pe-3 col-3">
+            <div className=" pe-3 col-md-3 col-sm-6 col-12 mx-sm-auto mt-4">
               <div className=" p_space">
                 <div>
                   <img className=" w-100" src={wbasin1} alt="washbasin" />
@@ -137,7 +172,7 @@ const Shop = () => {
                 </div>
               </div>
             </div>
-            <div className=" pe-3 col-3">
+            <div className=" pe-3 col-md-3 col-sm-6  mx-sm-auto col-12 mt-4 mt-md-0">
               <div className=" p_space">
                 <div>
                   <img className=" w-100" src={wbasin2} alt="washbasin" />
@@ -158,7 +193,7 @@ const Shop = () => {
                 </div>
               </div>
             </div>
-            <div className=" pe-3 col-3">
+            <div className=" pe-3 col-md-3 col-sm-6  mx-sm-auto col-12 mt-4 mt-md-0">
               <div className=" p_space">
                 <div>
                   <img className=" w-100" src={wbasin3} alt="washbasin" />
@@ -179,7 +214,7 @@ const Shop = () => {
                 </div>
               </div>
             </div>
-            <div className=" pe-3 col-3">
+            <div className=" pe-3 col-md-3 col-sm-6  mx-sm-auto col-12 mt-4 mt-md-0">
               <div className=" p_space">
                 <div>
                   <img className=" w-100" src={wbasin4} alt="washbasin" />
@@ -204,12 +239,13 @@ const Shop = () => {
         </div>
       </section>
 
+
       {/* //////////////////////////////////img section////////////////////////// */}
 
       <section>
         <div className=" my_container mt-5">
           <div className=" row h-100">
-            <div className=" col-8">
+            <div className=" col-md-8 col-12">
               <div className=" position-relative">
                 <img className=" w-100" src={img1} alt="basin" />
                 <div className=" p_btn">
@@ -222,7 +258,7 @@ const Shop = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-4 d-flex flex-column gap-4">
+            <div className=" col-md-4 col-12 d-flex flex-column gap-4 mt-4 mt-md-0">
               <div className=" position-relative h-50">
                 <img
                   className=" w-100 h-100 object-fit-cover"

@@ -3,8 +3,11 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { Accordion } from "react-bootstrap";
 import right_arrow from "../assets/Images/png/right_arrow.png"
+import Button from "../Components/Button";
 
 const Contact = () => {
+const message_btn = `message_btn d-flex m-auto mt-4`
+
   return (
     <>
       <Navbar />
@@ -66,9 +69,10 @@ const Contact = () => {
             placeholder="Message"
             rows={4}
           ></textarea>
-          <button className=" text-white fs_md font_helvetica message_btn mt-4 d-flex m-auto">
+          {/* <button className=" text-white fs_md font_helvetica message_btn mt-4 d-flex m-auto">
             SEND YOUR MESSAGE
-          </button>
+          </button> */}
+          <Button  text="SEND YOUR MESSAGE" style={message_btn} />
           <p className=" fs_xsm clr_grey1 font_helvetica text-center mt-2">
             If you have any questions, you can take a look at our FAQ’s. Another
             request? Our team is at your disposal to answer it.
